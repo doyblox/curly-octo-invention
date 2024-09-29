@@ -1,0 +1,95 @@
+body {
+    background: url('Foxtrot.jpg') no-repeat center center fixed;
+    background-size: cover; /* Cover the entire viewport */
+    color: #ffffff; /* Light text */
+    font-family: 'Arial', sans-serif; /* Change font */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(30, 30, 30, 0.8); /* Darker header with transparency */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 36px;
+    color: #fff; /* White outer glow */
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.6),  /* Soft white glow */
+        0 0 10px rgba(255, 255, 255, 0.6); /* Slightly larger glow */
+    font-weight: bold;
+}
+
+.content-wrapper {
+    padding: 20px;
+    max-width: 800px; /* Limit width for readability */
+    margin: auto; /* Center the content */
+}
+
+.subject {
+    background-color: rgba(42, 42, 42, 0.7); /* Semi-transparent background for sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.subject h2 {
+    color: #fff; /* White text for subject titles */
+    text-shadow: 
+        0 0 3px rgba(255, 255, 255, 0.5); /* Soft glow effect */
+}
+
+.subject p {
+    color: #d0d0d0; /* Lighter text for descriptions */
+}
+
+.image-container {
+    position: relative; /* Position relative to hold the title and sliding images */
+    overflow: hidden; /* Ensures the sliding image stays within the container */
+}
+
+.title-image, .slide-image {
+    display: block; /* Ensure both images are treated as block elements */
+    margin: 5px auto; /* Centers the images */
+    width: 100%; /* Makes images take the full width of the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.slide-image {
+    position: absolute; /* Position the sliding image absolutely within the container */
+    top: 0; /* Aligns the sliding image to the top */
+    left: 100%; /* Start off-screen to the right */
+    transition: left 0.5s ease; /* Transition effect for the slide */
+}
+
+.image-container:hover .slide-image {
+    left: 0; /* Slide into view on hover */
+}
+footer {
+    background-color: rgba(30, 30, 30, 0.8); /* Dark background */
+    color: white; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Padding around the footer */
+    position: relative; /* Positions relative to the body */
+}
+
+.social-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.social-links li {
+    display: inline; /* Display links inline */
+    margin: 0 15px; /* Margin between links */
+}
+
+.social-links a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

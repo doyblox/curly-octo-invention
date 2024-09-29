@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">ICT Portfolio Compiling Project</h1>
+    </header>
+
+    <div class="content-wrapper">
+        <section class="subject" id="values">
+            <h2>Values Project</h2>
+            <p>Our project in values consists of two different factors: the written and the picture one. The written one requires us to keep a journal of our day, focusing on being grateful or noting good moments, while the other involves forming a hobby for 21 days.</p>
+            <div class="image-container">
+                <img src="title_image_values.jpg" alt="Values Project Title" class="title-image">
+                <img src="Echo.jpg" alt="Values Project Image" class="slide-image">
+            </div>
+        </section>
+
+        <section class="subject" id="english">
+            <h2>English Project</h2>
+            <p>This project requires a full understanding of a novel. Summarization and deep analysis are needed, including reflective questions and essays. It covers chapters 1-8.</p>
+            <div class="image-container">
+                <img src="title_image_english.jpg" alt="English Project Title" class="title-image">
+                <img src="Galliard.jpg" alt="English Project Image" class="slide-image">
+            </div>
+        </section>
+
+        <section class="subject" id="filipino">
+            <h2>Filipino Project</h2>
+            <p>This project requires us to write a full poem with 12 syllables per line, consisting of 4 stanzas with 4 lines each. It's due tomorrow, and I plan to complete it after this since I need to gather the necessary pictures.</p>
+            <div class="image-container">
+                <img src="title_image_filipino.jpg" alt="Filipino Project Title" class="title-image">
+                <img src="Filipino_Image.jpg" alt="Filipino Project Image" class="slide-image">
+            </div>
+        </section>
+
+        <section class="subject" id="science">
+            <h2>Science Project</h2>
+            <p>This project involves two mongo beans in separate jars. One is sprayed with moisture and left, while the other is placed in cotton and left. We will observe both for 3 days and document our findings.</p>
+            <div class="image-container">
+                <img src="title_image_science.jpg" alt="Science Project Title" class="title-image">
+                <img src="Science_Image.jpg" alt="Science Project Image" class="slide-image">
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
